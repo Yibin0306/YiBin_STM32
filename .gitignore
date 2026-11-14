@@ -1,0 +1,20 @@
+# Keil 编译输出、界面布局和调试日志
+Objects/
+Listings/
+*.uvguix.*
+*.uvgui.*
+JLinkLog.txt
+
+# STM32CubeIDE 编译输出及工作区缓存
+/STM32_Keysking/*/Debug/
+/STM32_Keysking/.metadata/
+
+# 江协的接线图资料
+/STM32_JiangXie/1-1 接线图/
+
+# 山羊的原始字体、独立字模转换工具及样例
+/STM32_ShanYang/*/my_lib/font/ttfttc/
+/STM32_ShanYang/*/my_lib/font/*.exe
+/STM32_ShanYang/*/my_lib/font/*.dll
+/STM32_ShanYang/*/my_lib/font/.map
+/STM32_ShanYang/*/my_lib/font/test.png
